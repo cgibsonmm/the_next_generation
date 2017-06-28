@@ -20,12 +20,30 @@ body{
 	padding-top: 20px;
 	padding-bottom: 20px; 
 	margin-bottom: 0;
-	border-bottom: 4px solid #ffffff;
+	border-bottom: 4px solid rgba(0,0,0,0.12);
 	border-radius: 0;
 	h3{
 		color:#FFFFFF;
+		padding-bottom: 0px;
 	}
 }
+
+#main-nav{
+	border-radius: 0;
+	border: 0px solid white;
+	background-color: rgba(12, 7, 7, 0.64);
+	li{
+		font-family: 'Merienda One', cursive;
+		text-decoration: none;
+		padding: auto;
+		font-size: 2em;
+	}
+	a{
+		text-decoration: none;
+		color: rgb(186, 189, 185);
+	}
+}
+
 
 
 
