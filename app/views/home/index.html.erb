@@ -1,2 +1,9 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<% 30.times do %>
+	<div class="col-sm-6 col-md-4">
+		<div class="thumbnail thumb-box test-image">
+		<div class="thumb-box">
+			<%= image_tag(src: '/tattoo.jpg') %>
+		</div>
+		</div>
+	</div>
+<% end %>

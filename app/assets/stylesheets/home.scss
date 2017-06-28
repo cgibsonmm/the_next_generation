@@ -22,26 +22,38 @@ body{
 	margin-bottom: 0;
 	border-bottom: 4px solid rgba(0,0,0,0.12);
 	border-radius: 0;
+
 	h3{
 		color:#FFFFFF;
 		padding-bottom: 0px;
 	}
 }
 
+//  ***** Navbar *****
 #main-nav{
 	border-radius: 0;
 	border: 0px solid white;
 	background-color: rgba(12, 7, 7, 0.64);
-	li{
-		font-family: 'Merienda One', cursive;
+	
+	ul{
+		li{
+		font-family: 'Megrim', cursive;
 		text-decoration: none;
-		padding: auto;
 		font-size: 2em;
+
 	}
-	a{
-		text-decoration: none;
-		color: rgb(186, 189, 185);
+
+		a{
+			text-decoration: none;
+			color: rgb(186, 189, 185);
+		}
 	}
+}
+
+// ***** TEST PICTURE BOX *****
+.test-image{
+	height: 250px;
+	background-color: rgba(55, 80, 111, 0.49);
 }
 
 
