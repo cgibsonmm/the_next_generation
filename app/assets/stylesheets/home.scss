@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body{
-	background: url(bg.jpg) no-repeat center center fixed; 
+	background: url(bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,9 +16,9 @@ body{
 	font-family: 'Megrim', cursive;
 	text-align: center;
 	color:#FFFFFF;
-	font-weight: 700;
+	font-weight: 800;
 	padding-top: 20px;
-	padding-bottom: 20px; 
+	padding-bottom: 20px;
 	margin-bottom: 0;
 	border-bottom: 4px solid rgba(0,0,0,0.12);
 	border-radius: 0;
@@ -34,18 +34,27 @@ body{
 	border-radius: 0;
 	border: 0px solid white;
 	background-color: rgba(12, 7, 7, 0.64);
-	
+
+	#nav-links{
+		padding: 25% auto;
+	}
 	ul{
 		li{
 		font-family: 'Megrim', cursive;
 		text-decoration: none;
 		font-size: 2em;
+		display: table-cell;
+		padding-left: 25% auto;
+		padding-right: 25% auto;
 
 	}
 
 		a{
 			text-decoration: none;
 			color: rgb(186, 189, 185);
+		}
+		a:hover{
+			color: #f5efa2;
 		}
 	}
 }
@@ -55,7 +64,3 @@ body{
 	height: 250px;
 	background-color: rgba(55, 80, 111, 0.49);
 }
-
-
-
-
